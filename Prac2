@@ -1,0 +1,50 @@
+1.  1.The start conditions,
+    a. I want to see a film,
+    b. I have enough money to buy the ticket,
+    2. Roles,
+    Me, conductor, teller, actors,
+    3. Equipment required,
+    Seats, ticket, screen, vedio carmeras, money, popcorn,
+    4. The scenes,
+    Scene One: Buy a ticket,
+    a. I went to the ticket office.,
+    b. I gave money to conductor and she gave me the ticket.,
+    Scene Two: Go to the cinema,
+    a. The ticket inspector checked my ticket and asked me to enter the cinema.,
+    b. I found me seat and sat down to wait for the movie.,
+    Scene Three: Watch the movie,
+    a. The movie started.,
+    b. I enjoyed the movie plot.,
+    Scene Four: The movie is finished,
+    a. The film is over.,
+    b. I left cinema.,
+    5. Results,
+    a. I was happy,
+    b. I spent money,
+    c. The cinema and movie earned money.
+2.  1.The farmer go to the right bank with duck,
+    2. The farmer go to the left bank alone,
+    3. The farmer go to the right bank with wolf,
+    4. The farmer go to the left bank with duck,
+    5. The farmer go to the right bank with corn,
+    6. The farmer go to the left bank alone,
+    7. The farmer go to the right bank with duck
+3.  In the goal setting, we determine what we are interested in and what can be ignored. 
+    Then in the problem formula we decide how to manipulate important aspects while ignoring other aspects. 
+    If we first develop the problem, we will not know what to include and what to miss. 
+    That is to say, there may be a set of iterations between problem formulation and problem solving until a sufficiently useful and effective solution is reached.
+4.  1. A:[B], B:[C,D], C:[D, E, F], D:[E, F, H, G], E:[F, H, G], F:[H, G], H:[G, K, I], G:[K, I], K=GOAL
+    2.A:[B], B:[C, D], C:[E, G, D], E:[F, D], F:[D], D:[H, G], H:[I, K ,G], I=GOAL
+5.  a.                            1\
+                           /            \
+                        2                  3
+                      /    \\             /    \
+                  4          5         6        7\
+                 /  \\       /  \\      /  \\     /  \\          
+               8     9    10   11    12  13   14  15     
+    b. BFS: 1 2 3 4 5 6 7 8 9 10 11
+       DFS: 1 2 4 8 9 5 10 11
+       IDS: 1; 1 2 3; 1 2 4 5 3 6 7 ; 1 2 4 8 9 5 10 11
+    c. It is useful. The only successor of n in the reverse direction is n/2 which helps focus the search. The branching factor is 2 in the forward direction; 1 in the reverse direction
+    d. Yes.getting from 1 and apply the single reverse successor action until you reach 1.
+    e. Read off the binary numeral for thee goal number. We can only reach positive integers, this binary expansion begins with a 1. From most to least significant bit, skipping the initial 1, go left to the node 2n if this bit is 0 and go right to node 2n+1 if it is 1
